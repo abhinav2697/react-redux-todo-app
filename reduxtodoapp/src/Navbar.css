@@ -1,10 +1,10 @@
 .navbar{
     background-color: rgb(53, 60, 195);
-    bottom: 50px;
     color:white;
-    margin-left: 200px;
+    /* margin-left: 200px;
     margin-right: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
+    padding: 10px 125px;
     text-align: center;
     border-radius: 5px;
 }
