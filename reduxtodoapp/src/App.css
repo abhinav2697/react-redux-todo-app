@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap:3rem;
+}
+
+input{
+  width: 15rem;
+  height:3rem;
+  font-size: 1.6rem;
+  border: 1px solid rgba(18,18,18,0.777);
+  margin-right: 2rem;
+  border-radius: .3rem;
+  padding-left: 1rem;
+}
+
+input:focus{
+  outline:none;
+  border:1px solid green;
+}
+button{
+  font-size: 1.6rem;
+  padding: .4rem 1.5rem;
+  cursor: pointer;
+  background-color: rgb(9,171,9);
+  color: white;
+  border:none;
+  border-radius: .2rem;
+}
+
+.add-todo button:hover{
+  background-color: rgb(7,136,7);
+}
+
+.item{
+  width:30rem;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.184);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: .4rem;
+  gap:4rem;
+  padding: 0rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.item p{
+  font-size: 1.6rem;
+}
+
+.item button{
+  font-size: 1rem;
+  padding: .4rem 1rem;
+  margin-left: .6rem;
+}
+
+.deletebtn{
+  background-color: red;
+}
+.deletebtn:hover{
+  background-color: rgb(197,3,3);
+}
+.editbtn:hover{
+  background-color: rgb(5,107,5);
+}
+
